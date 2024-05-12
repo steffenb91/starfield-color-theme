@@ -1,0 +1,21 @@
+{
+  "name": "starfield-color-theme",
+  "displayName": "Starfield Color Theme",
+  "description": "A Starfield inspired Color Theme for VS Code.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Starfield",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Starfield-color-theme.json"
+      }
+    ]
+  }
+}
